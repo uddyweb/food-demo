@@ -1,0 +1,178 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.head{
+    padding: 10px;
+}
+.pic{
+    width: 100%;
+    object-fit: cover;
+    height: 800px;
+}
+.header h1{
+    text-align: center;
+    font-size: 3rem;
+    padding: 3rem;
+    color: darkslateblue;
+    font-weight: bolder;
+}
+.description{
+    display: flex;
+    padding: 10px;
+    margin: 0 auto;
+}
+.img{
+    height: 700px;
+    width: 100%;
+    border: none;
+    min-width: 900px;
+    padding: 3rem;
+}
+.about{
+    padding: 2rem;
+    margin: 2rem;
+    line-height: 2rem;
+    font-size: 1.5rem;
+}
+.about p{
+    padding: 2rem;
+}
+.sub{
+    margin:  0 auto;
+}
+.sub h2{
+    text-align: center;
+    padding: 3rem;
+    font-size: 3rem;
+    font-weight: bold; 
+}
+.food{
+    width: 100%;
+    height: 900px;
+   padding: 3rem;
+    object-fit: cover;
+}
+.sub ul{
+    padding: 3rem;
+}
+.sub li{
+    padding: 0.5rem;
+    cursor: pointer;
+}
+.sub li a{
+    text-decoration: none;
+    color: darkslategray;
+    font-size: 1.3rem;
+}
+.table{
+    padding: 3rem;
+    text-align: center;
+}
+.table h3{
+    color: gray;
+    font-size: 3rem;
+    font-weight: bolder;
+    padding: 3rem;
+}
+.menu{
+    padding: 3rem;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+.menu th{
+    border: none;
+    padding: 0.4rem 0.5rem;
+    background: aqua;
+}
+
+td{
+    font-size: 1.4rem;
+}
+.row:nth-child(odd){
+    background: aliceblue;
+}
+.form{
+    padding: 3rem;
+    margin: 0 auto;
+}
+.form h5{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: darkgray;
+    padding: 3rem;
+}
+.booking, .enquires{
+    padding: 3rem;
+    margin:  0 auto;
+}
+.label{
+    padding-bottom: 3rem;
+    font-size: 1.5rem;
+}
+.input{
+    margin-bottom: 3rem;
+    padding: 0.5rem 2rem;
+    border-radius: 0.5rem;
+    border: 1px solid gray;
+    font-size: 1.4rem;
+}
+.btn{
+    margin: 0 auto;
+    padding: 0.5rem 2rem;
+    font-size: 1.8rem;
+    font-weight: bolder;
+    border-radius: 3rem;
+    background-color: aliceblue;
+    color: darkslategrey;
+}
+.btn:hover{
+    border: 3px solid pink;
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.footer{
+    padding: 3rem;
+    background-color: darkgrey;
+}
+.foot li {
+    display: inline;
+    padding-top: 5rem;
+    text-align: center;
+}
+.foot li a{
+    text-align: center;
+    text-decoration: none;
+    padding: 3rem;
+    margin: 3rem;
+    font-size: 1.5rem;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    
+}
+.socials{
+    float: right;
+}
+.socials p{
+    display: inline;
+    font-size: 3rem;
+    color: darkslategrey;
+    padding: 1rem;
+}
+.socials p:hover{
+    color: blue;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+#copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto;
+    padding-top: 4rem;
+}
